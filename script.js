@@ -80,7 +80,7 @@ const translations = {
     'faq.q3': `Можно ли отправлять сообщения из Peeklium?`,
     'faq.a3': `Нет. Приложение показывает чат только для чтения и не отправляет сообщения.`,
     'faq.q4': `Почему оверлей не виден в игре?`,
-    'faq.a4': `Оверлей рассчитан на режим Borderless Windowed или оконный режим. Эксклюзивный полноэкранный режим некоторых игр может скрывать сторонние окна.`,
+    'faq.a4': `Оверлей рассчитан на режим Borderless Windowed или оконный режим. В некоторых играх он может отображаться и поверх эксклюзивного полноэкранного режима, но это зависит от игры и драйвера и не гарантируется.`,
     'footer.about': `О проекте`
   },
   en: {
@@ -164,7 +164,7 @@ const translations = {
     'faq.q3': `Can I send messages from Peeklium?`,
     'faq.a3': `No. The app shows chat as read-only and never sends messages.`,
     'faq.q4': `Why is the overlay not visible in my game?`,
-    'faq.a4': `The overlay works in Borderless Windowed or windowed mode. Exclusive fullscreen in some games can hide third-party windows.`,
+    'faq.a4': `The overlay is designed for Borderless Windowed or windowed mode. In some games it may still appear over exclusive fullscreen, but that depends on the game and driver and is not guaranteed.`,
     'footer.about': `About the project`
   },
   uk: {
@@ -248,7 +248,7 @@ const translations = {
     'faq.q3': `Чи можна надсилати повідомлення з Peeklium?`,
     'faq.a3': `Ні. Застосунок показує чат лише для читання і не надсилає повідомлень.`,
     'faq.q4': `Чому оверлей не видно у грі?`,
-    'faq.a4': `Оверлей розрахований на режим Borderless Windowed або віконний режим. Ексклюзивний повноекранний режим деяких ігор може приховувати сторонні вікна.`,
+    'faq.a4': `Оверлей розрахований на режим Borderless Windowed або віконний режим. У деяких іграх він може відображатися й поверх ексклюзивного повноекранного режиму, але це залежить від гри та драйвера і не гарантується.`,
     'footer.about': `Про проєкт`
   }
 };
