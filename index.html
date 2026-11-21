@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="Peeklium keeps Twitch chat on top of your game. Set its position, appearance and connection from one Windows app." data-i18n-content="meta.description">
+  <title>Peeklium — Twitch chat over your game</title>
+  <link rel="canonical" href="https://ldprojectteam.github.io/peeklium/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Peeklium">
+  <meta property="og:title" content="Peeklium — Twitch chat over your game">
+  <meta property="og:description" content="Read Twitch chat without leaving your game. A read-only overlay for Windows 10/11 x64.">
+  <meta property="og:url" content="https://ldprojectteam.github.io/peeklium/">
+  <meta property="og:image" content="https://ldprojectteam.github.io/peeklium/assets/screenshots/01-overview.png">
+  <meta property="og:image:alt" content="Peeklium overview screen with Twitch connection and chat preview">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/peeklium-icon.png">
+  <link rel="apple-touch-icon" href="assets/peeklium-icon.png">
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Peeklium — back to top" data-i18n-aria="a11y.home">
+      <img src="assets/peeklium-icon.png" alt="" width="36" height="36">
+      <span>Peeklium</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" data-i18n-aria="a11y.menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav class="nav" id="main-nav" aria-label="Main navigation" data-i18n-aria="a11y.mainNav">
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#preview" data-i18n="nav.interface">Interface</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <div class="lang-switch" role="group" aria-label="Language" data-i18n-aria="a11y.lang">
+        <button type="button" lang="en" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+        <button type="button" lang="ru" data-lang="ru" aria-pressed="false" aria-label="Русский">RU</button>
+        <button type="button" lang="uk" data-lang="uk" aria-pressed="false" aria-label="Українська">UA</button>
+      </div>
+      <a class="nav-download" href="https://github.com/LDProjectTeam/peeklium/releases/latest/download/Peeklium.exe" download data-i18n="nav.download">Download</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> <span data-i18n="hero.platform">Peeklium for Windows</span> <span class="eyebrow-divider">·</span> Twitch</div>
+        <h1 data-i18n-html="hero.title">Read Twitch chat,<br class="hero-break"> <span>stay in your game.</span></h1>
+        <p class="hero-lead" data-i18n="hero.lead">Peeklium pins chat over your game in windowed mode. Place the overlay, tune its look and stay with the stream.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/LDProjectTeam/peeklium/releases/latest/download/Peeklium.exe" download><span data-i18n="hero.download">Download for Windows</span> <span class="button-arrow" aria-hidden="true">↓</span></a>
+          <a class="button button-quiet" href="#features" data-i18n="hero.secondary">Features</a>
+        </div>
+        <div class="hero-meta"><span data-i18n="hero.meta.os">Windows 10/11 · x64</span><span data-i18n="hero.meta.build">Self-contained build</span><span data-i18n="hero.meta.readonly">Read-only</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-label"><span class="live-dot"></span> <span data-i18n="hero.visualLabel">Chat appearance settings</span></div>
+        <div class="app-window"><img src="assets/screenshots/02-chat.png" alt="Chat settings and appearance preview in Peeklium" data-i18n-alt="img.heroAlt" fetchpriority="high" width="1200" height="820"></div>
+        <div class="visual-foot"><span data-i18n="hero.visualFoot1">Preview from the app</span><span>Windows · Peeklium</span></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="About Peeklium" data-i18n-aria="a11y.ticker"><span data-i18n="ticker.1">Twitch chat over your game</span><i aria-hidden="true"></i><span data-i18n="ticker.2">Read-only mode</span><i aria-hidden="true"></i><span data-i18n="ticker.3">Quick Connect or sign in with Twitch</span></section>
+
+    <section class="features section-pad" id="features">
+      <div class="section-heading"><div><div class="eyebrow dark-eyebrow" data-i18n="features.eyebrow">What Peeklium does</div><h2 data-i18n-html="features.title">Set up chat<br><span>for your game.</span></h2></div><p data-i18n="features.lead">Move the window and style the chat without changing how you play.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card feature-wide"><div class="feature-number">01 <span data-i18n="feature1.tag">Overlay</span></div><h3 data-i18n="feature1.title">Put the window where you want it</h3><p data-i18n="feature1.body">Pick one of nine positions, resize it or drag the window by hand. Always on Top keeps chat above the game, and Click Through passes clicks through the overlay.</p><div class="feature-tags"><span data-i18n="feature1.tagA">9 positions</span><span data-i18n="feature1.tagB">Always on Top</span><span data-i18n="feature1.tagC">Click Through</span></div></article>
+        <article class="feature-card"><div class="feature-number">02 <span data-i18n="feature2.tag">Appearance</span></div><h3 data-i18n="feature2.title">Set the font and colors</h3><p data-i18n="feature2.body">Choose a preset and adjust font, color, opacity and spacing. The preview updates while you edit.</p></article>
+        <article class="feature-card"><div class="feature-number">03 <span data-i18n="feature3.tag">Connection</span></div><h3 data-i18n="feature3.title">Two ways to open chat</h3><p data-i18n="feature3.body">Quick Connect joins a public chat with no account. To sign in with Twitch, authorize in your browser.</p></article>
+        <article class="feature-card feature-wide"><div class="feature-number">04 <span data-i18n="feature4.tag">Hotkeys</span></div><h3 data-i18n="feature4.title">Control it from the keyboard</h3><p data-i18n="feature4.body">Show chat, toggle Click Through, open settings or lock the window with global shortcuts.</p><div class="key-row"><kbd>Ctrl</kbd><b>+</b><kbd>Alt</kbd><b>+</b><kbd>F8</kbd><span data-i18n="feature4.key">show or hide chat</span></div></article>
+      </div>
+    </section>
+
+    <section class="preview-section" id="preview">
+      <div class="preview-heading"><div class="eyebrow" data-i18n="preview.eyebrow">Peeklium interface</div><h2 data-i18n-html="preview.title">Settings and chat<br><span>in one window.</span></h2><p data-i18n="preview.lead">The main page, overlay appearance and Twitch connection.</p></div>
+      <div class="screenshot-wrap"><img class="main-screenshot" src="assets/screenshots/01-overview.png" alt="Peeklium main page: Twitch connection, quick settings and chat preview" data-i18n-alt="img.overviewAlt" loading="lazy"><div class="screenshot-caption"><span data-i18n="preview.caption1">01 · Overview</span><span data-i18n="preview.caption2">Status and quick actions</span></div></div>
+      <div class="screenshot-grid">
+        <button class="shot-card" data-image="assets/screenshots/02-chat.png" data-title="Chat appearance" data-title-key="shot1.title" aria-label="View chat settings" data-i18n-aria="shot1.aria"><img src="assets/screenshots/02-chat.png" alt="Peeklium chat appearance settings" data-i18n-alt="shot1.alt" loading="lazy"><span><b data-i18n="shot1.title">Chat appearance</b><small data-i18n="shot1.sub">Font and colors</small></span></button>
+        <button class="shot-card" data-image="assets/screenshots/03-overlay.png" data-title="Overlay settings" data-title-key="shot2.title" aria-label="View overlay settings" data-i18n-aria="shot2.aria"><img src="assets/screenshots/03-overlay.png" alt="Peeklium overlay position settings" data-i18n-alt="shot2.alt" loading="lazy"><span><b data-i18n="shot2.title">Overlay settings</b><small data-i18n="shot2.sub">Position and size</small></span></button>
+        <button class="shot-card" data-image="assets/screenshots/04-connection.png" data-title="Twitch connection" data-title-key="shot3.title" aria-label="View the connection page" data-i18n-aria="shot3.aria"><img src="assets/screenshots/04-connection.png" alt="Twitch connection page in Peeklium" data-i18n-alt="shot3.alt" loading="lazy"><span><b data-i18n="shot3.title">Twitch connection</b><small data-i18n="shot3.sub">Quick Connect and sign-in</small></span></button>
+      </div>
+    </section>
+
+    <section class="download-section" id="download">
+      <div class="eyebrow"><span class="live-dot"></span> <span data-i18n="download.eyebrow">Download Peeklium</span></div>
+      <h2 data-i18n-html="download.title">Chat over your game.<br><span>Settings within reach.</span></h2>
+      <p data-i18n="download.lead">Self-contained build for Windows x64.</p>
+      <a class="button button-light" href="https://github.com/LDProjectTeam/peeklium/releases/latest/download/Peeklium.exe" download><span data-i18n="download.cta">Download Peeklium</span> <span class="button-arrow" aria-hidden="true">↓</span></a>
+      <div class="download-note" data-i18n="download.note">Windows 10/11 · x64 · .exe · no .NET Runtime required</div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq">
+      <div class="faq-intro"><div class="eyebrow dark-eyebrow" data-i18n="faq.eyebrow">Questions and answers</div><h2 data-i18n-html="faq.title">Peeklium<br><span>in short.</span></h2><p data-i18n="faq.lead">Compatibility, connection and overlay behavior.</p></div>
+      <div class="faq-list">
+        <details><summary><span class="faq-q" data-i18n="faq.q1">Which systems does Peeklium run on?</span><span class="faq-icon" aria-hidden="true"></span></summary><p data-i18n="faq.a1">Windows 10 and 11, x64. The build is self-contained: you do not need to install the .NET Runtime separately.</p></details>
+        <details><summary><span class="faq-q" data-i18n="faq.q2">Do I need a Twitch account to connect?</span><span class="faq-icon" aria-hidden="true"></span></summary><p data-i18n="faq.a2">No. Quick Connect joins a public chat without an account or Client ID. To connect with an account, sign in with Twitch from the app.</p></details>
+        <details><summary><span class="faq-q" data-i18n="faq.q3">Can I send messages from Peeklium?</span><span class="faq-icon" aria-hidden="true"></span></summary><p data-i18n="faq.a3">No. The app shows chat as read-only and never sends messages.</p></details>
+        <details><summary><span class="faq-q" data-i18n="faq.q4">Why is the overlay not visible in my game?</span><span class="faq-icon" aria-hidden="true"></span></summary><p data-i18n="faq.a4">The overlay works in Borderless Windowed or windowed mode. Exclusive fullscreen in some games can hide third-party windows.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#top"><img src="assets/peeklium-icon.png" alt="" width="30" height="30"><span>Peeklium</span></a><a class="footer-link" href="https://github.com/LDProjectTeam/peeklium#readme" data-i18n="footer.about">About the project</a><span class="copyright">© 2026 Peeklium · Unslop by @heydamir, CC BY 4.0</span></footer>
+
+  <dialog class="lightbox" aria-label="Screenshot preview" data-i18n-aria="a11y.lightbox"><button class="lightbox-close" aria-label="Close" data-i18n-aria="a11y.close">×</button><img alt=""><p></p></dialog>
+</body>
+</html>
