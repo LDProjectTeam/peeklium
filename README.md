@@ -12,6 +12,7 @@ A compact read-only Twitch chat overlay for Windows 10/11 x64.
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=111110)](https://github.com/LDProjectTeam/peeklium/releases)
 [![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=111110)](https://dotnet.microsoft.com)
 [![Website](https://img.shields.io/badge/website-online-63e7cb?style=for-the-badge&labelColor=111110)](https://ldprojectteam.github.io/peeklium/)
+[![License](https://img.shields.io/badge/license-Source--Available-darkred?style=for-the-badge&labelColor=111110)](LICENSE)
 
 [**Download for Windows**](https://github.com/LDProjectTeam/peeklium/releases/latest/download/Peeklium.exe) &nbsp;·&nbsp; [Website](https://ldprojectteam.github.io/peeklium/) &nbsp;·&nbsp; [Report a bug](https://github.com/LDProjectTeam/peeklium/issues)
 
@@ -143,6 +144,18 @@ Site:      HTML · CSS · vanilla JS · EN / RU / UA
 ## 📦 Repository
 
 This repository hosts the Peeklium landing page and Windows release builds. The app source is not published here.
+
+---
+
+## 📜 License / Лицензия
+
+Copyright (c) 2026 **Peeklium**. All rights reserved.
+
+This repository is source-available: you may read the site files, but the project is proprietary. Copying, modifying, redistributing, or reusing any part of it without written permission from the author is prohibited. See [LICENSE](LICENSE) for details.
+
+Данный репозиторий является source-available: файлы сайта можно читать, но проект проприетарный. Копирование, изменение, распространение или повторное использование любой части без письменного разрешения автора запрещены. Подробности — в [LICENSE](LICENSE).
+
+Цей репозиторій є source-available: файли сайту можна читати, але проєкт пропрієтарний. Копіювання, зміна, розповсюдження або повторне використання будь-якої частини без письмового дозволу автора заборонені. Деталі — у [LICENSE](LICENSE).
 
 ---
 
